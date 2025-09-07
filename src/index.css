@@ -23,3 +23,46 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url('/assets/fonts/ClashDisplay.ttf') format('truetype');
+}
+
+
+@keyframes border-glow-translate {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(100%); }
+}
+
+@keyframes border-glow-scale {
+  0% { transform: scaleX(0.6); }
+  100% { transform: scaleX(1.4); }
+}
+
+@keyframes star-rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes star-shine {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+  100% { opacity: 1; transform: translate(-50%, -50%) scale(1.1); }
+}
+
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); } 
+}
+
+@keyframes shine {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+
+

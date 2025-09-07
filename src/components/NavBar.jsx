@@ -103,7 +103,7 @@ const NavBar = () => {
                         <li className="hover:text-textWhite cursor-pointer">About</li>
                         <li className="hover:text-textWhite cursor-pointer">Work</li>
                         <li className="hover:text-textWhite cursor-pointer">Projects</li>
-                        <li className="hover:text-textWhite cursor-pointer">Contact</li>
+                        <li className="text-liveButton  hover:text-textWhite cursor-pointer">Contact</li>
                     </ul>
                 </div>
 
