@@ -11,7 +11,7 @@ const Hero = () => {
     return (
         <section className="text-white min-h-min relative ">
             {/* grid and spotlight */}
-            <div className="absolute z-0 inset-0 pointer-events-none  flex h-screen w-full overflow-hidden rounded-md bg-black/10 antialiased md:items-center md:justify-center opacity-20">
+            <div className="absolute z-0 inset-0 pointer-events-none  flex h-screen w-full overflow-hidden rounded-md bg-black/10 antialiased md:items-center md:justify-center opacity-55">
                 <div
                     className={cn(
                         "pointer-events-none absolute inset-0 [background-size:40px_40px] select-none",
@@ -20,7 +20,7 @@ const Hero = () => {
                 />
 
                 <Spotlight
-                    className="-top-40 left-0 md:top-36 md:left-60 "
+                    className="-top-40 left-0 md:top-36 md:left-60  "
                     fill="white"
                 />
                 <Spotlight
