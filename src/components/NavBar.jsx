@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import Hamburger from "./other_components/Hamburger";
-import { AnimatePresence, motion, useScroll, useTransform } from "motion/react"
+import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion";
 
 const NavBar = () => {
     const navRef = useRef(null);

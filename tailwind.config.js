@@ -23,7 +23,10 @@ export default {
        "textGray": "#a9a9bd", 
        "textWhite": "#f6f7ff",
        "liveButton": "#B5FF6D",
-       "borderGray":"#f3f3f310" 
+       "borderGray":"#f3f3f310",
+       "gridHead": "#E0E0E0",
+       "gridContent": "#E0E0E0",
+
 
       },
       animation: {
@@ -49,6 +52,8 @@ export default {
 
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
 }
 
