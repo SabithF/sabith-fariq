@@ -26,6 +26,7 @@ export default {
        "borderGray":"#f3f3f310",
        "gridHead": "#E0E0E0",
        "gridContent": "#E0E0E0",
+       "lightBorder": "#1a1a1dc2"
 
 
       },

@@ -26,8 +26,65 @@ const grid4 =
   }
 
 
+  const work = [
+    {
+        logo: "/assets/img/node.png",
+        designation: "Web Developer & Digital Marketer",
+        company: "animatist.lk",
+        date: "2024-Present",
+        description: [
+            "Built responsive web apps with JavaScript/Node.js, HTML, CSS, Tailwind CSS, improving Lighthouse scores and load times.",
+            "Designed flows and UI components in Figma, aligning designs with implementation via clear dev handoff",
+            "Implemented technical SEO and analytics leading to +30% organic traffic.",
+            "Managed Google Ads campaigns, improving ROI (-20% CPA); partnered with engineers/analysts to iterate on landing pages.",
+            "Collaborated across design, engineering, and marketing in agile sprints; participated in code reviews and Git workflows."
+        ]
+    },
+
+    {
+        logo: "/assets/img/node.png",
+        designation: "Web Developer & Digital Marketer",
+        company: "animatist.lk",
+        date: "2024-Present",
+        description: [
+            "Built responsive web apps with JavaScript/Node.js, HTML, CSS, Tailwind CSS, improving Lighthouse scores and load times.",
+            "Designed flows and UI components in Figma, aligning designs with implementation via clear dev handoff",
+            "Implemented technical SEO and analytics leading to +30% organic traffic.",
+            "Managed Google Ads campaigns, improving ROI (-20% CPA); partnered with engineers/analysts to iterate on landing pages.",
+            "Collaborated across design, engineering, and marketing in agile sprints; participated in code reviews and Git workflows."
+        ]
+    },
+    {
+        logo: "/assets/img/node.png",
+        designation: "Web Developer & Digital Marketer",
+        company: "animatist.lk",
+        date: "2024-Present",
+        description: [
+            "Built responsive web apps with JavaScript/Node.js, HTML, CSS, Tailwind CSS, improving Lighthouse scores and load times.",
+            "Designed flows and UI components in Figma, aligning designs with implementation via clear dev handoff",
+            "Implemented technical SEO and analytics leading to +30% organic traffic.",
+            "Managed Google Ads campaigns, improving ROI (-20% CPA); partnered with engineers/analysts to iterate on landing pages.",
+            "Collaborated across design, engineering, and marketing in agile sprints; participated in code reviews and Git workflows."
+        ]
+    },
+    {
+        logo: "/assets/img/node.png",
+        designation: "Web Developer & Digital Marketer",
+        company: "animatist.lk",
+        date: "2024-Present",
+        description: [
+            "Built responsive web apps with JavaScript/Node.js, HTML, CSS, Tailwind CSS, improving Lighthouse scores and load times.",
+            "Designed flows and UI components in Figma, aligning designs with implementation via clear dev handoff",
+            "Implemented technical SEO and analytics leading to +30% organic traffic.",
+            "Managed Google Ads campaigns, improving ROI (-20% CPA); partnered with engineers/analysts to iterate on landing pages.",
+            "Collaborated across design, engineering, and marketing in agile sprints; participated in code reviews and Git workflows."
+        ]
+    },
+]
 
 
 
 
-export {grid1, grid2, grid3, grid4}
+
+
+export {grid1, grid2, grid3, grid4, work}
