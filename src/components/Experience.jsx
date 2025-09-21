@@ -8,6 +8,7 @@ import { work } from "../consts";
 
 
 
+
 const Experience = () => {
     const [openIndex, setOpenIndex] = useState(null);
 
@@ -41,7 +42,9 @@ const Experience = () => {
                             aria-expanded={openIndex === index}
                             className="justify-between flex w-full text-left">
                             <div className="flex items-center">
-                                <img src={job.logo} alt="icon" className="h-7 pr-4" />
+                                <div className="h-9 w-9 mr-4">
+                                    <img src={job.logo} alt="icon" className=" rounded-full" />
+                                </div>
                                 <div className="flex flex-col">
                                     <h2>{job.designation}</h2>
                                     <p className={`${styles.expPara} `}>@{job.company} </p>
@@ -63,7 +66,7 @@ const Experience = () => {
                                     className={`${styles.pointPara} space-y-1`}>
 
                                     {job.description.map((point, i) => (
-                                        <li className="flex  pl-2 pt-2">
+                                        <li className="flex  pl-2 pt-3">
                                             <span className="pl-1">•</span>
                                             <span className="pl-3  w-[90%] md:w-full ">{point}</span>
                                         </li>

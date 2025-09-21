@@ -106,16 +106,21 @@ const Services = () => {
     >
       {/* Heading */}
       <div className="mb-6 flex flex-col">
-        <h2 className={styles.subHeadText}>Services</h2>
-        <h1 className={styles.headText}>What I do?</h1>
+        <h2 className={styles.subHeadText}>Speciality</h2>
+        <h1 className={styles.headText}>Areas of Expertise</h1>
       </div>
 
-      <div className="flex flex-col md:flex-row w-full gap-5">
+      <div className="flex flex-col md:flex-row w-full mt-5 gap-5">
         {/* Cards */}
         <motion.div
           className="w-full flex flex-col gap-3 items-stretch justify-center md:justify-start"
-          layout="position"
-          transition={{ layout: { duration: 0.35, type: "spring" } }}
+          key="content"
+          initial={{ height: 0, opacity: 0 }}
+          animate={{ height: "auto", opacity: 1 }}
+          exit={{ height: 0, opacity: 0 }}
+          transition={{ duration: 0.3, ease: [0.22, 0.61, 0.36, 1] }}
+          style={{ overflow: "hidden" }}
+
         >
           {cards.map((c, idx) => (
             <ServiceCard
@@ -129,7 +134,7 @@ const Services = () => {
 
         {/* Compare panel */}
         <div className="w-full md:mt-0 mt-1">
-          <div className="w-full h-64 sm:h-80 md:h-full overflow-hidden rounded-sm md:rounded-md">
+          <div className="w-full h-64 sm:h-80 md:h-full overflow-hidden rounded-sm md:rounded-md" layout>
             <Compare
               firstImage="https://assets.aceternity.com/code-problem.png"
               secondImage="https://assets.aceternity.com/linear-dark.png"

@@ -1,3 +1,4 @@
+import { title } from "framer-motion/client"
 
 
 const grid1 =
@@ -83,8 +84,94 @@ const grid4 =
 ]
 
 
+const projects = [
+    {
+        img: "/assets/img/haskellp.png",
+        title: "Haskell Web Data Harvester",
+        category:"Web",
+        link: "https://github.com/Thananont/haskell-project",
+        web:"https://frontierlk.com/",
+        description:"Built a Haskell app to fetch, parse, store, andquery JSON data from TFL web API using a modular design.",
+        stack: [
+            "Haskell" , "React"
+
+        ]
+
+
+    },
+    {
+        img: "/assets/img/haskellp.png",
+        title: "Haskell Web Data Harvester",
+        category:"Designing",
+        link: "https://github.com/Thananont/haskell-project",
+        web:"Designing",
+        description:"Built a Haskell app to fetch, parse, store, andquery JSON data from TFL web API using a modular design.",
+        stack: [
+            "Haskell" , "React"
+
+        ]
+
+
+    },
+    {
+        img: "/assets/img/haskellp.png",
+        title: "Haskell Web Data Harvester",
+        category:"Implementation",
+        link: "https://github.com/Thananont/haskell-project",
+        web:"",
+        description:"Built a Haskell app to fetch, parse, store, andquery JSON data from TFL web API using a modular design.",
+        stack: [
+            "Haskell" , "React"
+
+        ]
+
+
+    },
+    {
+        img: "/assets/img/haskellp.png",
+        title: "Haskell Web Data Harvester",
+        category:"Implementation",
+        link: "https://github.com/Thananont/haskell-project",
+        web:"",
+        description:"Built a Haskell app to fetch, parse, store, andquery JSON data from TFL web API using a modular design.",
+        stack: [
+            "Haskell" , "React"
+
+        ]
+
+
+    },
+    {
+        img: "/assets/img/haskellp.png",
+        title: "Haskell Web Data Harvester",
+        category:"Implementation",
+        link: "https://github.com/Thananont/haskell-project",
+        web:"",
+        description:"Built a Haskell app to fetch, parse, store, andquery JSON data from TFL web API using a modular design.",
+        stack: [
+            "Haskell" , "React"
+
+        ]
+
+
+    },
+    {
+        img: "/assets/img/haskellp.png",
+        title: "Haskell Web Data Harvester",
+        category:"Implementation",
+        link: "https://github.com/Thananont/haskell-project",
+        web:"",
+        description:"Built a Haskell app to fetch, parse, store, andquery JSON data from TFL web API using a modular design.",
+        stack: [
+            "Haskell" , "React"
+
+        ]
+
+
+    },
+]
 
 
 
 
-export {grid1, grid2, grid3, grid4, work}
+export {grid1, grid2, grid3, grid4, work, projects}

@@ -19,7 +19,7 @@ const tech = [
     { name: "MySQL", logo: "/assets/img/stack/MySQL.png" },
     { name: "Tailwind", logo: "/assets/img/stack/tailwindcss.png" },
     { name: "Framer Motion", logo: "/assets/img/stack/framer.png" },
-    { name: "ThreeJs", logo: "/assets/img/stack/Three.png" },
+    { name: "ThreeJs", logo: "/assets/img/stack/Three.js.png" },
     { name: "NextJs", logo: "/assets/img/stack/nextjs2.png" },
     { name: "Flutter", logo: "/assets/img/stack/flutter.png" },
     { name: "Haskell", logo: "/assets/img/stack/haskell.png" },
