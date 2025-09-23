@@ -27,31 +27,32 @@ const Experience = () => {
 
 
             {/* Work */}
-            <div className="mb-6 flex flex-col w-full justify-start md:mx-0 mx-5 overflow-hidden">
+            <div className="mb-6 flex flex-col  sm:w-full justify-start md:mx-0 mt-4 sm:mt-0 mx-5 sm:px-4 overflow-hidden">
                 {/* work card */}
                 {work.map((job, index) => (
                     <motion.div
                         key={index}
                         layout
-                        className="flex flex-col  border-b border-lightBorder pb-4 mb-5"
+                        className="flex flex-col w-full border-b border-lightBorder pb-4 mb-5"
                         >
 
                         <button
                             type="button"
                             onClick={() => toggle(index)}
                             aria-expanded={openIndex === index}
-                            className="justify-between flex w-full text-left">
+                            className="justify-between flex w-full text-left ">
                             <div className="flex items-center">
-                                <div className="h-9 w-9 mr-4">
-                                    <img src={job.logo} alt="icon" className=" rounded-full" />
+                                <div className="h-9 w-9 mr-4 flex items-center justify-center bg-white   rounded-full ">
+                                    <img src={job.logo} alt="icon" className=" rounded-full object-contain" />
                                 </div>
-                                <div className="flex flex-col">
+                                <div className="flex flex-col ">
                                     <h2>{job.designation}</h2>
-                                    <p className={`${styles.expPara} `}>@{job.company} </p>
+                                    <p className={`${styles.expPara} flex `}>@{job.company} </p>
+                                    <p className={`${styles.expPara}  sm:hidden block pt-3   justify-end`}>{job.date}</p>
 
                                 </div>
                             </div>
-                            <p className={`${styles.expPara}`}>{job.date}</p>
+                            <p className={`${styles.expPara} hidden sm:block`}>{job.date}</p>
 
                         </button>
                         <AnimatePresence initial={false}>

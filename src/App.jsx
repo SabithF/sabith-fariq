@@ -23,13 +23,19 @@ function App() {
     <Routes>
       <Route path='/' element={
           <>
-            <Hero/>
-            <About/>
-            <Services/>
-            <Tech/>
-            <Experience/>
-            <Project/>
-            <Contact/>
+           <section id="hero" className="scroll-mt-28"><Hero/></section> 
+           <section id="about" className="scroll-mt-28"> <About/></section> 
+           <section className="scroll-mt-28"> <Services/></section> 
+           <section className="scroll-mt-28"> <Tech/></section> 
+           <section id="work" className="scroll-mt-28"><Experience/></section> 
+           <section id="projects" className="scroll-mt-28"><Project/></section> 
+           <section id="contact" className="scroll-mt-28"> <Contact/></section> 
+           
+           
+           
+
+            
+            
             <Footer />
             
           </>

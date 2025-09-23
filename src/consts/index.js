@@ -29,10 +29,10 @@ const grid4 =
 
   const work = [
     {
-        logo: "/assets/img/node.png",
+        logo: "/assets/company/animatist_logo.png",
         designation: "Web Developer & Digital Marketer",
-        company: "animatist.lk",
-        date: "2024-Present",
+        company: "Animatist.lk",
+        date: "2021-Present",
         description: [
             "Built responsive web apps with JavaScript/Node.js, HTML, CSS, Tailwind CSS, improving Lighthouse scores and load times.",
             "Designed flows and UI components in Figma, aligning designs with implementation via clear dev handoff",
@@ -43,43 +43,33 @@ const grid4 =
     },
 
     {
-        logo: "/assets/img/node.png",
-        designation: "Web Developer & Digital Marketer",
-        company: "animatist.lk",
-        date: "2024-Present",
+        logo: "/assets/company/front_logo.png",
+        designation: "IT Auditor & Digital Marketer - Consultant",
+        company: "Frontier Advisory (Pvt) Ltd",
+        date: "2023",
         description: [
-            "Built responsive web apps with JavaScript/Node.js, HTML, CSS, Tailwind CSS, improving Lighthouse scores and load times.",
-            "Designed flows and UI components in Figma, aligning designs with implementation via clear dev handoff",
-            "Implemented technical SEO and analytics leading to +30% organic traffic.",
-            "Managed Google Ads campaigns, improving ROI (-20% CPA); partnered with engineers/analysts to iterate on landing pages.",
-            "Collaborated across design, engineering, and marketing in agile sprints; participated in code reviews and Git workflows."
-        ]
+            "Performed risk assessments and recommended controls, improving security posture and compliance.",
+            "Analysed IT processes; proposed changes to increase operational efficiency and resilience.",
+            ]
     },
     {
-        logo: "/assets/img/node.png",
-        designation: "Web Developer & Digital Marketer",
-        company: "animatist.lk",
-        date: "2024-Present",
+        logo: "/assets/company/cjm.png",
+        designation: "IT Specialist",
+        company: "Ceylon Jewelry Manufacturers",
+        date: "2023",
         description: [
-            "Built responsive web apps with JavaScript/Node.js, HTML, CSS, Tailwind CSS, improving Lighthouse scores and load times.",
-            "Designed flows and UI components in Figma, aligning designs with implementation via clear dev handoff",
-            "Implemented technical SEO and analytics leading to +30% organic traffic.",
-            "Managed Google Ads campaigns, improving ROI (-20% CPA); partnered with engineers/analysts to iterate on landing pages.",
-            "Collaborated across design, engineering, and marketing in agile sprints; participated in code reviews and Git workflows."
-        ]
+            "Optimised network infrastructure for reliability and performance.",
+            "Supported ERP integration and trained staff on core workflows to improve adoption and data quality.",
+           ]
     },
     {
-        logo: "/assets/img/node.png",
-        designation: "Web Developer & Digital Marketer",
-        company: "animatist.lk",
-        date: "2024-Present",
+        logo: "/assets/company/myshop.png",
+        designation: "Digital Marketing Specialist & Business Analyst",
+        company: "Myshop.lk (Pvt) Ltd",
+        date: "2017-2021",
         description: [
-            "Built responsive web apps with JavaScript/Node.js, HTML, CSS, Tailwind CSS, improving Lighthouse scores and load times.",
-            "Designed flows and UI components in Figma, aligning designs with implementation via clear dev handoff",
-            "Implemented technical SEO and analytics leading to +30% organic traffic.",
-            "Managed Google Ads campaigns, improving ROI (-20% CPA); partnered with engineers/analysts to iterate on landing pages.",
-            "Collaborated across design, engineering, and marketing in agile sprints; participated in code reviews and Git workflows."
-        ]
+            "Directed growth initiatives contributing to +40% sales and +60% organic traffic; collaborated with engineering on site performance and analytics.",
+             ]
     },
 ]
 
@@ -90,10 +80,9 @@ const projects = [
         title: "Haskell Web Data Harvester",
         category:"Web",
         link: "https://github.com/Thananont/haskell-project",
-        web:"https://frontierlk.com/",
         description:"Built a Haskell app to fetch, parse, store, andquery JSON data from TFL web API using a modular design.",
         stack: [
-            "Haskell" , "React"
+            "Haskell" , "sqLite"
 
         ]
 
@@ -171,7 +160,22 @@ const projects = [
     },
 ]
 
+const links = {
+    github: "https://github.com/SabithF",
+    insta:"https://www.instagram.com/sabith_fariq/?hl=en-gb",
+    gmail:"mailto:sabithfariq@gmail.com?subject=Let's%20work%20together&body=Hi%20Sabith,%0AI%20would%20like%20to%20discuss...",
+    linkedin: "https://www.linkedin.com/in/sabith-fariq/",
+
+} 
+
+const Nav_links = {
+    about: "#about",
+    work: "#work",
+    projects: "#projects",
+    contact:"#contact"
+} 
 
 
 
-export {grid1, grid2, grid3, grid4, work, projects}
+
+export {grid1, grid2, grid3, grid4, work, projects, links, Nav_links}

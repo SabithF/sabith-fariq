@@ -32,9 +32,9 @@ const Project = () => {
     return (
         <section className="mx-auto max-w-[1000px] text-white mt-10 w-full flex flex-col">
             {/* Heading */}
-            <div className="mb-6 flex flex-col">
+            <div className="mb-6 flex flex-col ">
                 <h2 className={styles.subHeadText}>My Work</h2>
-                <h1 className={styles.headText}>Selected Projects</h1>
+                <h1 className={`${styles.headText} `}>Selected Projects</h1>
                 <p className={`${styles.paraText} md:w-[80%] mx-5 md:mx-0`}>
                     Here's a selection showcasing my expertise and the achieved results.</p>
             </div>
@@ -87,14 +87,21 @@ const Project = () => {
                                 <h5 className="text-lg font-medium font-outfit">{p.title}</h5>
                                 <div className="flex justify-between items-end">
                                     <p className={`${styles.expPara} w-[70%]`}>{p.description}</p>
+
                                     {p.link && (
-                                        <a href={p.link} className="border border-1 p-3 text-gray-600 hover:text-[#9cdcfe] hover:bg-borderGray rounded-xl border-lightBorder transition duration-300 ease-in-out">
+                                        <a 
+                                        onClick={(e) => e.stopPropagation()}
+                                        target="_blank"
+                                        href={p.link} className="border border-1 p-3 text-gray-600 hover:text-[#9cdcfe] hover:bg-borderGray rounded-xl border-lightBorder transition duration-300 ease-in-out">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7"> <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path> </svg></a>
 
                                     )}
 
                                     {p.web && (
-                                        <a href={p.web} className="border border-1 p-3 rounded-xl border-lightBorder text-gray-600 hover:text-liveButton  hover:bg-borderGray transition duration-300 ease-in-out ">
+                                        <a 
+                                        onClick={(e) => e.stopPropagation()}
+                                        target="_blank"
+                                        href={p.web} className="border border-1 p-3 rounded-xl border-lightBorder text-gray-600 hover:text-liveButton  hover:bg-borderGray transition duration-300 ease-in-out ">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7"> <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path> </svg>
                                         </a>
                                     )}

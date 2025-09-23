@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { styles } from "../styles";
+import { links } from "../consts";
 
 
 const Footer = () => {
@@ -25,9 +26,11 @@ const Footer = () => {
                 
                 </div>
 
-                <h2 className={`${styles.headText}text shadow-xl   w-[50%]  flex flex-col items-center justify-center`}>Let's turn your Ideas into <span className="text-liveButton">experience</span></h2>
-                <img src="/assets/social/github2.svg" alt="github" className="invert h-8 mt-5 cursor-pointer ring-1 rounded-full ring-gray-500/40 p-1 animate-pulse" />
+                <h2 className={`${styles.headText}text shadow-xl   sm:w-[50%]  flex flex-col items-center justify-center`}>Let's turn your Ideas into <span className="text-liveButton">experience</span></h2>
+                <a href={links.github}>
+                    <img src="/assets/social/github2.svg" alt="github" className="invert h-8 mt-5 cursor-pointer ring-1 rounded-full ring-gray-500/40 p-1 animate-pulse" />
            
+                </a>
                 
                 
             </div>
