@@ -94,7 +94,7 @@ const Hero = () => {
                         onClick={() =>
                             document.getElementById('about')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
                         }
-                        className="group relative dark:bg-neutral-800 bg-neutral-200 rounded-full p-px overflow-hidden"
+                        className="group relative bg-neutral-800  rounded-full p-px overflow-hidden"
                     >
                         <span className="absolute inset-0 rounded-full overflow-hidden">
                             <span className="inset-0 absolute pointer-events-none select-none">
@@ -126,7 +126,7 @@ const Hero = () => {
 
                         <span
 
-                            className="flex items-center justify-center gap-1 relative z-[1] dark:bg-neutral-950/90 bg-neutral-50/90 rounded-full py-2 px-4 pl-2 w-full">
+                            className="flex items-center justify-center gap-1 relative z-[1] bg-neutral-950/90  rounded-full py-2 px-4 pl-2 w-full">
                             <span className="relative group-hover:scale-105 transition-transform group-hover:rotate-[360deg] duration-500">
                                 <svg
                                     width="18"
@@ -134,7 +134,7 @@ const Hero = () => {
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    className="opacity-80 dark:opacity-100"
+                                    className=" opacity-100"
                                     style={{
                                         animation:
                                             "star-rotate 14s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite alternate",
@@ -176,7 +176,7 @@ const Hero = () => {
                                 </svg>
 
                                 <span
-                                    className="rounded-full size-11 absolute opacity-0 dark:opacity-30 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 blur-lg"
+                                    className="rounded-full size-11 absolute opacity-30 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 blur-lg"
                                     style={{
                                         animation: "star-shine 14s ease-in-out infinite alternate",
                                         background:
@@ -185,7 +185,7 @@ const Hero = () => {
                                 />
                             </span>
 
-                            <span className="bg-gradient-to-b ml-1.5 dark:from-white dark:to-white/50 from-neutral-950 to-neutral-950/50 bg-clip-text text-xs text-transparent group-hover:scale-105 transition transform-gpu">
+                            <span className="bg-gradient-to-b ml-1.5 from-white to-white/50  bg-clip-text text-xs text-transparent group-hover:scale-105 transition transform-gpu">
                                 Let's explore
                             </span>
                         </span>

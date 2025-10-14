@@ -76,13 +76,13 @@ const grid4 =
 
 const projects = [
     {
-        img: "/assets/img/haskellp.png",
+        img: "/assets/projects/NFC.jpg",
         title: "Haskell Web Data Harvester",
         category:"Web",
-        link: "https://github.com/Thananont/haskell-project",
-        description:"Built a Haskell app to fetch, parse, store, andquery JSON data from TFL web API using a modular design.",
+        link: "https://github.com/SabithF/NFC-Smart-Poster",
+        description:"Full-stack NFC Smart Poster app turning taps into engagement. Users launch a quiz, earn badges, and unlock vouchers—no login (device fingerprinting, one-scan-per-poster). NFC I/O powered, with REST APIs, live leaderboard, and analytics. Built with React, Node.js/Express, MongoDB." ,
         stack: [
-            "Haskell" , "sqLite"
+            "NFC","React", "NodeJs", "MongoDB"
 
         ]
 
@@ -103,7 +103,7 @@ const projects = [
 
     },
     {
-        img: "/assets/img/haskellp.png",
+        img: "/assets/projects/tripguide.png",
         title: "Haskell Web Data Harvester",
         category:"Implementation",
         link: "https://github.com/Thananont/haskell-project",

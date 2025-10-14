@@ -30,7 +30,9 @@ const Project = () => {
 
 
     return (
-        <section className="mx-auto max-w-[1000px] text-white mt-10 w-full flex flex-col">
+        <section 
+        id="projects"
+        className="mx-auto max-w-[1000px] text-white mt-10 w-full flex flex-col">
             {/* Heading */}
             <div className="mb-6 flex flex-col ">
                 <h2 className={styles.subHeadText}>My Work</h2>
@@ -63,7 +65,7 @@ const Project = () => {
             {/* Grid */}
             <div
                 layout
-                className="grid py-12 grid-cols-1 mx-3 sm:mx-0 sm:grid-cols-2 gap-y-10 sm:gap-x-16 sm:gap-y-0 transition duration-300 ease-in-out">
+                className="grid py-12 grid-cols-1 mx-3 sm:mx-0 sm:grid-cols-2 gap-y-10 sm:gap-x-16 sm:gap-y-10 transition duration-300 ease-in-out">
 
                 {visibleProjects.map((p) => (
                     <div
@@ -86,7 +88,8 @@ const Project = () => {
                             <div className="mt-4 space-y-2">
                                 <h5 className="text-lg font-medium font-outfit">{p.title}</h5>
                                 <div className="flex justify-between items-end">
-                                    <p className={`${styles.expPara} w-[70%]`}>{p.description}</p>
+
+                                    <p className={`${styles.expPara} w-[75%]`}>{p.description}</p>
 
                                     {p.link && (
                                         <a 

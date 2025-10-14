@@ -173,7 +173,7 @@ const Contact = () => {
                                 <img src="/assets/social/email.svg" alt="email" className="h-5 invert " />
                             </a>
                             <a href={links.insta} className="">
-                                <img src="/assets/social/insta.svg" alt="insta" className="h-5  invert" />
+                                <img src="/assets/social/insta.svg" alt="insta" className="h-5 " />
                             </a>
                         </div>
 
