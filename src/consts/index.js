@@ -16,7 +16,7 @@ const grid2 =
 const grid3 =
     {
         title:  "Education ",
-        content: "I hold an MSc in Computer Science from Queen Mary University of London and a diploma in Digital Marketing.”" 
+        content: "I earned my MSc in Computer Science with Distinction from Queen Mary University of London, along with a Diploma in Digital Marketing." 
        
     }
 
