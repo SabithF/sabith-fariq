@@ -77,12 +77,12 @@ const grid4 =
 const projects = [
     {
         img: "/assets/projects/NFC.jpg",
-        title: "Haskell Web Data Harvester",
-        category:"Web",
+        title: "NFC Smart Poster",
+        category:"Web App",
         link: "https://github.com/SabithF/NFC-Smart-Poster",
         description:"Full-stack NFC Smart Poster app turning taps into engagement. Users launch a quiz, earn badges, and unlock vouchers—no login (device fingerprinting, one-scan-per-poster). NFC I/O powered, with REST APIs, live leaderboard, and analytics. Built with React, Node.js/Express, MongoDB." ,
         stack: [
-            "NFC","React", "NodeJs", "MongoDB"
+            "NFC","React", "NodeJs", "MongoDB", "TailwindCSS"
 
         ]
 
@@ -91,12 +91,11 @@ const projects = [
     {
         img: "/assets/img/haskellp.png",
         title: "Haskell Web Data Harvester",
-        category:"Designing",
+        category:"Implementations",
         link: "https://github.com/Thananont/haskell-project",
-        web:"Designing",
         description:"Built a Haskell app to fetch, parse, store, andquery JSON data from TFL web API using a modular design.",
         stack: [
-            "Haskell" , "React"
+            "Haskell"
 
         ]
 
@@ -104,60 +103,100 @@ const projects = [
     },
     {
         img: "/assets/projects/tripguide.png",
-        title: "Haskell Web Data Harvester",
-        category:"Implementation",
-        link: "https://github.com/Thananont/haskell-project",
+        title: "Haskell Concurrency Threading",
+        category:"Implementations",
+        link: "https://github.com/SabithF/Haskell_concurrency_threading",
         web:"",
-        description:"Built a Haskell app to fetch, parse, store, andquery JSON data from TFL web API using a modular design.",
+        description:"Designed a multi-threaded Haskellapp simulating a web server handling HTTP-like requests. Used MVars for thread-saferequest queuing and response handling.",
         stack: [
-            "Haskell" , "React"
+            "Haskell" 
 
         ]
 
 
     },
     {
-        img: "/assets/img/haskellp.png",
-        title: "Haskell Web Data Harvester",
-        category:"Implementation",
-        link: "https://github.com/Thananont/haskell-project",
-        web:"",
+        img: "/assets/projects/LDM2.png",
+        title: "Leisure Diary Travel Applicaiton",
+        category:"Web App",
+        link: "https://github.com/SabithF/Leisure-Diary---Web-and-Mobile-applicaiton",
+        description:"Built a service booking platform includin gmobile and web apps with secure authentication and real-time API integration.",
+        stack: [
+            "NodeJs" , "MongoDb", "HTML", "CSS"
+
+        ]
+
+
+    },
+    
+    {
+        img: "/assets/projects/meezan1.png",
+        title: "Meezan Group",
+        category:"UI/UX",
+        web:"https://group-company-website.vercel.app/",
         description:"Built a Haskell app to fetch, parse, store, andquery JSON data from TFL web API using a modular design.",
         stack: [
-            "Haskell" , "React"
+            "ReactJs" , "TailwindCSS"
 
         ]
 
 
     },
     {
-        img: "/assets/img/haskellp.png",
-        title: "Haskell Web Data Harvester",
-        category:"Implementation",
-        link: "https://github.com/Thananont/haskell-project",
-        web:"",
-        description:"Built a Haskell app to fetch, parse, store, andquery JSON data from TFL web API using a modular design.",
+        img: "/assets/projects/Alzhcare2.jpg",
+        title: "AlzCare",
+        category:"UI/UX",
+        web:"https://www.behance.net/gallery/226708005/Medical-mobile-app-UIUX-Design",
+        description:"A UI/UX prototype created to support and enhance the daily lives of Alzheimer’s patients through intuitive and accessible design.",
         stack: [
-            "Haskell" , "React"
+            "Figma" 
 
         ]
 
 
     },
+
     {
-        img: "/assets/img/haskellp.png",
-        title: "Haskell Web Data Harvester",
-        category:"Implementation",
-        link: "https://github.com/Thananont/haskell-project",
-        web:"",
-        description:"Built a Haskell app to fetch, parse, store, andquery JSON data from TFL web API using a modular design.",
+        img: "/assets/projects/Banner.jpg",
+        title: "VetMe",
+        category:"UI/UX",
+        web:"https://www.behance.net/gallery/226708799/Pet-care-mobile-app",
+        description:"A UI/UX prototype designed for a modern veterinary clinic.",
         stack: [
-            "Haskell" , "React"
+            "Flutter" 
 
         ]
 
 
     },
+    
+    {
+        img: "/assets/projects/RNB.jpg",
+        title: "Travel Company Presentaion",
+        category:"UI/UX",
+        web:"https://www.behance.net/gallery/226756519/Travel-company-presentation",
+        description:"A presentation created for a renowned travel company operating worldwide.",
+        stack: [
+            "Flutter" 
+
+        ]
+
+
+    },
+     {
+        img: "/assets/projects/graphic.jpg",
+        title: "Designings",
+        category:"UI/UX",
+        web:"https://www.behance.net/sabith_fariq",
+        description:"A collection of creative and technical projects showcasing my skills in UI/UX design, development, and innovative problem-solving across diverse domains.",
+        stack: [
+            "Designing" 
+
+        ]
+
+
+    },
+     
 ]
 
 const links = {
